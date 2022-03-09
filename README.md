@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <a href="#-stack">Stack</a> | <a href="#-project">Project</a> | <a href="#-layout">Layout</a> | <a href="#-licença">License</a>
+  <a href="#-stack">Stack</a> | <a href="#-project">Project</a> | <a href="#-layout">Layout</a> | <a href="#-license">License</a>
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ It's a simple static, responsive page built with HTML and CSS to serve as a Soci
 
 ## 🔖 Layout
 
-You can view the project layout through [this link](https://www.figma.com/file/yi1ycIyAW8QiGiX9bMFHkU/DD-%2F-Social-links/). You need an account on [Figma](https://figma.com) to access it.
+You can view the project layout through [this link](https://www.figma.com/file/yi1ycIyAW8QiGiX9bMFHkU/DD-%2F-Social-links). You need an account on [Figma](https://figma.com) to access it.
 
 ## 📝 License
 
