@@ -20,12 +20,11 @@ body {
   font-weight: 300;
   background: var(--body-bg-color);
   color: var(--purple);
-
   display: flex;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
   gap: 2.5rem;
-  padding: 2rem;
 }
 
 a {
@@ -42,6 +41,11 @@ a:hover {
   width: min(400px, 80vw);
   margin: auto;
   text-align: center;
+}
+
+.content {
+  padding: 2.5rem;
+  max-height: 60rem;
 }
 /* #endregion Generic */
 
@@ -90,12 +94,20 @@ a:hover {
 
 /* #region Icons */
 .icons {
-  margin-top: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   width: min(250px, 80vw);
   justify-content: center;
   column-gap: 1.8rem;
   row-gap: 1rem;
+  padding: 2.5rem 0;
 }
 /* #endregion Icons */
+
+/* #region Responsive */
+@media screen and (max-height: 700px) {
+  .content {
+    max-height: 100%;
+  }
+}
+/* #endregion Responsive */
