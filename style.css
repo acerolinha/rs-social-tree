@@ -1,0 +1,101 @@
+/* #region Global */
+
+/* #region Colors */
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+/* #endregion Colors */
+
+/* #region Generic */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  background: var(--body-bg-color);
+  color: var(--purple);
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+a {
+  color: var(--purple);
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+a:hover {
+  opacity: 0.4;
+}
+
+.container {
+  width: min(400px, 80vw);
+  margin: 0 auto;
+  text-align: center;
+}
+/* #endregion Generic */
+
+/* #endregion Global */
+
+/* #region Profile */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.profile .profile-photo {
+  width: 12.5rem;
+  height: 12.5rem;
+}
+.profile .profile-photo img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 0.25rem;
+  border: 2px solid var(--purple);
+}
+/* #endregion Profile */
+
+/* #region Socials */
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: min(350px, 80vw);
+}
+
+.socials a {
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 100%;
+  border: 2px solid var(--purple);
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+}
+/* #endregion Socials */
+
+/* #region Icons */
+.icons {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: min(250px, 80vw);
+  justify-content: center;
+  column-gap: 1.8rem;
+  row-gap: 1rem;
+}
+/* #endregion Icons */
