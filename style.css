@@ -21,11 +21,11 @@ body {
   background: var(--body-bg-color);
   color: var(--purple);
 
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 2.5rem;
+  padding: 2rem;
 }
 
 a {
@@ -40,7 +40,7 @@ a:hover {
 
 .container {
   width: min(400px, 80vw);
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
 }
 /* #endregion Generic */
