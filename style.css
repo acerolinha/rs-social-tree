@@ -2,9 +2,10 @@
 
 /* #region Colors */
 :root {
-  --body-bg-color: #faf7fd;
-  --purple: #bb99dd;
+  --body-bg-color: #0c121a;
+  --purple: #11cac1;
 }
+
 /* #endregion Colors */
 
 /* #region Generic */
@@ -47,6 +48,7 @@ a:hover {
   padding: 2.5rem;
   max-height: 60rem;
 }
+
 /* #endregion Generic */
 
 /* #endregion Global */
@@ -64,6 +66,7 @@ a:hover {
   width: 12.5rem;
   height: 12.5rem;
 }
+
 .profile .profile-photo img {
   object-fit: cover;
   width: 100%;
@@ -72,6 +75,12 @@ a:hover {
   padding: 0.25rem;
   border: 2px solid var(--purple);
 }
+
+.name {
+  user-select: none;
+  font-size: 1.25rem;
+}
+
 /* #endregion Profile */
 
 /* #region Socials */
@@ -91,19 +100,8 @@ a:hover {
   padding: 0.75rem;
   border-radius: 0.25rem;
 }
-/* #endregion Socials */
 
-/* #region Icons */
-.icons {
-  display: flex;
-  flex-wrap: wrap;
-  width: min(250px, 80vw);
-  justify-content: center;
-  column-gap: 1.8rem;
-  row-gap: 1rem;
-  padding: 2.5rem 0;
-}
-/* #endregion Icons */
+/* #endregion Socials */
 
 /* #region Responsive */
 @media screen and (max-height: 700px) {
@@ -111,4 +109,5 @@ a:hover {
     max-height: 100%;
   }
 }
+
 /* #endregion Responsive */
